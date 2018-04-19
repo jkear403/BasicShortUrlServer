@@ -1,0 +1,25 @@
+{
+  "name": "shorturls",
+  "version": "1.0.0",
+  "description": "Create Short Urls that can redirect to the longer ones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "ShortUrls"
+  ],
+  "author": "Jon Kear",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7"
+  }
+}

@@ -1,0 +1,1 @@
+A basic Node JS web server with a MongoDB that has two endpoints one to create the short url and one to redirect to the long url.
